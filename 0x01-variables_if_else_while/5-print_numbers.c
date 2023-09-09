@@ -8,13 +8,12 @@
 
 int main(void)
 {
-	char letter;
+	int n;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (n = 0; n <= 9; n++)
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		printf("%d", n);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }

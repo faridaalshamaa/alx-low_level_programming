@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - function name
+ * *_strcpy - function name
  * @dest: function parameter 1
  * @src: function parameter 2
  * Retern: always 0
